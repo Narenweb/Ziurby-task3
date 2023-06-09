@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
 
-body,ul,p {
+body,
+ul,
+p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 
 }
 
@@ -28,7 +30,7 @@ li {
     font-weight: 600;
     margin: 0 600px 0 100px;
     padding-top: 38px;
-  
+
 }
 
 .list {
@@ -52,7 +54,7 @@ li {
     font-family: SourceSansPro;
     font-size: 65px;
     font-weight: bold;
-    position: relative;
+    position: absolute;
     top: 283px;
 
 }
@@ -63,16 +65,10 @@ li {
     font-size: 26px;
     color: white;
     text-align: center;
-    position: relative;
+    position: absolute;
     top: 283px;
 }
 
-.btn {
-    text-align: center;
-    position: relative;
-    top: 300px;
-
-}
 
 .btn1 {
     background-color: aquamarine;
@@ -85,6 +81,9 @@ li {
     color: whitesmoke;
     border: none;
     cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top: 300px;
 }
 
 
@@ -126,7 +125,7 @@ li {
 
 .Group-9-right {
     float: right;
-    position: relative;
+    position: absolute;
     bottom: 200px;
     width: 415px;
     height: 176px;
@@ -135,7 +134,7 @@ li {
 
 .Main2 {
     margin: 200px 84px 0 190px;
-    
+
 }
 
 .I-mac {
@@ -155,7 +154,7 @@ li {
     font-weight: bold;
     line-height: 1.59;
     color: #29465B;
-   
+
 
 }
 
@@ -205,7 +204,7 @@ li {
     height: 70px;
     margin: 22px 0 0 360px;
     object-fit: contain;
-    position: relative;
+    position: absolute;
     bottom: 95px;
 
 }
@@ -216,7 +215,7 @@ li {
 }
 
 .Lorem6 {
-   
+
     font-family: SourceSansPro;
     font-size: 22px;
     font-weight: bold;
@@ -238,11 +237,12 @@ li {
     color: var(--black-two);
 }
 
-.feature{
+.feature {
     margin-top: 23px;
-  
+
 }
-.feature1{
+
+.feature1 {
     display: inline-block;
     margin-left: 38px;
 }
@@ -257,25 +257,26 @@ li {
     margin: 0 0 13px 0;
 
 }
-.feature-text{
+
+.feature-text {
     color: black;
     float: right;
     margin: 4px 0 5px 9px;
     font-family: SourceSansPro;
     font-size: 16px;
     color: #29465B;
-    
+
 }
 
-.Tablet{
-  
+.Tablet {
+
     width: 595px;
     height: 387px;
     margin: 0 0 0 45px;
     object-fit: contain;
-    position: relative;
+    position: absolute;
     left: 370px;
-    bottom:340px
+    bottom: 340px
 }
 
 
