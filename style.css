@@ -18,10 +18,10 @@ header {
     width: 100%;
 }
 
-.Container {
+/* .Container {
 
     width: 100%;
-}
+} */
 
 li {
     list-style: none;
@@ -38,13 +38,11 @@ li {
 .First-list {
     font-size: 22px;
     font-weight: 600;
-    margin-left: 100px;
     padding-top: 38px;
 }
 
 .right {
-    float: right;
-
+   float: right;
 }
 
 
@@ -61,7 +59,7 @@ li {
 
 .header-main {
     background: linear-gradient(119deg, rgba(0, 0, 0, 0.5), rgba(42, 42, 42, 0.5)), url(https://i.ibb.co/hgjmnMB/image.png) center/cover;
-    height: 769px;
+    height:100vh;
     object-fit: contain;
 }
 
@@ -74,7 +72,7 @@ li {
     font-size: 65px;
     font-weight: bold;
     position: relative;
-    top: 283px;
+    top: 50%;
 
 }
 
@@ -85,13 +83,13 @@ li {
     color: white;
     text-align: center;
     position: relative;
-    top: 283px;
+    top: 50%;
 }
 
 .btn {
     text-align: center;
     position: relative;
-    top: 300px;
+    top: 52%;
 
 }
 
@@ -114,6 +112,7 @@ li {
 
 
 .Lorem1 {
+    margin-top: 108px;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: bold;
@@ -141,13 +140,19 @@ li {
 
 }
 
-.Container-Main {
-    margin: 108px auto;
-    width: 80%;
+.Group-9-right{
+    margin-top: 108px;
+}
+
+.Container {
+    margin: 0 auto 0 auto;
+    max-width: 970px;
     display: flow-root;
 }
 
+
 .I-mac {
+    margin-top: 108px;
     width: 433px;
     height: 524px;
 }
@@ -155,7 +160,7 @@ li {
 .Lorem3 {
     width: 312px;
     height: 35px;
-    margin-top: 170px;
+    margin-top: 278px;
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: bold;
@@ -181,7 +186,7 @@ li {
 
 .Line {
     border-top: 2px solid #800080;
-    width: 125%;
+    width: 130%;
     height: 2px;
     margin: 26px 0 22px 2px;
     opacity: 0.25;
@@ -224,6 +229,7 @@ li {
     font-weight: bold;
     line-height: 1.59;
     color: #29465B;
+    margin-top: 108px;
 }
 
 .Lorem7 {
@@ -277,6 +283,7 @@ li {
     height: 387px;
     position: relative;
     bottom: 40px;
+    margin-top: 108px;
 }
 
 
