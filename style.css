@@ -2,14 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+3:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+3:wght@600;700&display=swap');
 
-body,
-ul,
-p,h1,h2 {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.font-lg {
+    font-size: 70px;
+}
+
+.font-md {
+    font-size: 22px;
+}
+
+.font-sm {
+    font-size: 16px;
+}
+
+.rw-500,.lw-500{
+    width: 500px;
+}
 /* --------------HEADER--------------- */
 
 header {
@@ -20,8 +33,6 @@ header {
 
 
 .navbar {
-    list-style: none;
-    display: inline-block;
     font-family: 'Roboto', sans-serif;
     padding-top: 38px;
 
@@ -33,23 +44,21 @@ li {
 
 .container__left {
     float: left;
-   
-}
+   }
 
-.navbar__First-list {
+.navbar__logo {
     font-size: 22px;
     color: white;
     font-family: 'Source Sans 3', sans-serif;
     text-decoration: none;
+    line-height: 100px;
+ 
 }
 
 .container__right{
     float: right;
-   
 }
-.right-width,.left-width{
-    width: 50%;
-}
+
 
 .navbar__list {
     font-size: 18px;
@@ -59,6 +68,7 @@ li {
     text-decoration: none;
     color: white;
 
+
 }
 
 .navbar__list:nth-child(3) {
@@ -67,20 +77,21 @@ li {
 
 /* --------------Hero section--------------- */
 
-.hero-section__main {
+.hero {
     background: linear-gradient(119deg, rgba(0, 0, 0, 0.5), rgba(42, 42, 42, 0.5)), url(https://i.ibb.co/hgjmnMB/image.png) center/cover;
     height: 100vh;
     object-fit: contain;
+    text-align: center;
 }
 
-.hero-section_content {
+.hero__wrapper {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.hero-section__line1 {
+.hero__wrapper h1{
     color: white;
     text-align: center;
     text-shadow: 0 6px 11px rgba(0, 0, 0, 0.5);
@@ -90,7 +101,7 @@ li {
 
 }
 
-.hero-section__line2 {
+.hero__wrapper p{
     text-shadow: 0 6px 11px rgba(0, 0, 0, 0.5);
     font-family: 'Roboto', sans-serif;
     font-size: 26px;
@@ -100,14 +111,8 @@ li {
 
 }
 
-.hero-section__btn {
-    text-align: center;
-    margin-top: 30px;
 
-
-}
-
-.hero-section__button {
+.hero__wrapper button {
     background-color: #00d5a6;
     padding: 13px 55px 13px 56px;
     border-radius: 3px;
@@ -118,6 +123,7 @@ li {
     color: whitesmoke;
     border: none;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 
@@ -128,42 +134,25 @@ li {
     max-width: 1100px;
     display: flow-root;
 }
-
-.margin__container{
+.mt-110{
     margin-top: 108px;
 }
 
-.Font-lg {
-    font-size: 70px;
-}
 
-.Font-md {
-    font-size: 22px;
-}
-
-.Font-sm {
-    font-size: 16px;
-}
-
-.container__Lorem1 {
+.main h2{
     font-family: 'Source Sans 3', sans-serif;
     color: #29465B;
 
 }
 
-.container__Lorem2 {
+.container__left p {
     margin-top: 5px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.59;
     letter-spacing: normal;
 
 }
-
-.container__right-img{
-    width: 500px;
-}
-
-.container__CTA-Link{
+.main a{
     font-family: 'Source Sans 3', sans-serif;
     line-height: 1.94;
     color: #FF1493;
@@ -171,12 +160,18 @@ li {
 
 }
 
-.container__Imac {
-    width: 433px;
+.right__group-img{
+    width: 500px;
+}
+
+
+
+.container__left > img{
+    width: 443px;
     height: 524px;
 }
 
-.container__Lorem3 {
+.container__right h2 {
 
     margin-top: 170px;
     font-family: 'Source Sans 3', sans-serif;
@@ -186,7 +181,7 @@ li {
 
 }
 
-.container__Lorem4 {
+.container__right-para1 {
     margin-top: 5px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.59;
@@ -194,7 +189,7 @@ li {
 
 }
 
-.line {
+.container__line {
     border-top: 2px solid #800080;
     height: 2px;
     margin-top: 26px;
@@ -202,7 +197,7 @@ li {
 
 }
 
-.container__Lorem5 {
+.container__right-para2 {
     margin-top: 26px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
@@ -211,7 +206,7 @@ li {
 
 }
 
-.container__Lorem5 .Text-style {
+.container__right-para2 .Text-style {
     font-family: 'Source Sans 3', sans-serif;
     color: #FF1493;
 
@@ -223,27 +218,12 @@ li {
     margin: 22px 0 0 360px;
     position: relative;
     bottom: 80px;
-    left: 165px;
+    left: 105px;
 
-}
-
-.container__Lorem6 {
-    font-family: 'Source Sans 3', sans-serif;
-    line-height: 1.59;
-    color: #29465B;
-}
-
-.container__Lorem7 {
-    margin-top: 5px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.59;
-    letter-spacing: normal;
-    color: var(--black-two);
 }
 
 .feature {
     margin-top: 23px;
-
 }
 
 .feature1 {
@@ -265,7 +245,7 @@ li {
 .feature__text {
     color: black;
     float: right;
-    margin-top: 4px;
+    margin: 4px 0 0 10px;
     font-family: 'Roboto', sans-serif;
     color: #29465B;
 
