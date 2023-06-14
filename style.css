@@ -61,14 +61,14 @@ ul {
 }
 
 .navbar__logo {
+    display: inline-block;
     color: white;
     text-decoration: none;
-    line-height: 100px;
+    padding-top: 38px;
 }
 
 .navbar__list {
     font-size: 18px;
-    padding-top: 38px;
     margin-right: 50px;
     text-decoration: none;
     color: white;
