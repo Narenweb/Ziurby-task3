@@ -88,9 +88,10 @@ ul {
 
 .hero__wrapper {
     position: absolute;
-    top: 50%;
+    /* top: 50%; */
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+     padding-top: 200px;
 }
 
 .hero__wrapper h1 {
@@ -264,7 +265,6 @@ li {
 .social-icons {
     float: right;
     line-height: 80px;
-    font-size: 0;
 }
 
 .icon {
