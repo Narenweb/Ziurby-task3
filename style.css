@@ -81,7 +81,7 @@ ul {
 
 .hero {
     background: linear-gradient(119deg, rgba(0, 0, 0, 0.5), rgba(42, 42, 42, 0.5)), url(https://i.ibb.co/hgjmnMB/image.png) center/cover;
-    height: 100vh;
+    height: 723px;
     object-fit: contain;
     text-align: center;
 }
